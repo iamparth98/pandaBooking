@@ -1,0 +1,28 @@
+.PList {
+  display: flex;
+  /* flex-direction: column; */
+  width: 100%;
+
+  max-width: 1024px;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.PListItem {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.PListTitles > h1 {
+  font-size: 18px;
+}
+.PListTitles > h2 {
+  font-size: 14px;
+  font-weight: 300;
+}
